@@ -5,6 +5,6 @@ int main(){
     if (a%5 == 0 && a&11 == 0)
        printf("Divisible");
     else
-       print("Not Divisible");
+       printf("Not Divisible");
     return 0;
 }
