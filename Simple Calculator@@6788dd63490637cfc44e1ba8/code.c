@@ -4,24 +4,23 @@ int main(){
     char c;
     scanf("%lf %lf %c",&a,&b,&c);
     if (c == '+') {
-        printf("%d", (int)(a + b));  // Cast the result to int
+        printf("%d", (int)(a + b)); 
     }
     else if (c == '-') {
-        printf("%d", (int)(a - b));  // Cast the result to int
+        printf("%d", (int)(a - b)); 
     }
     else if (c == '*') {
-        printf("%d", (int)(a * b));  // Cast the result to int
+        printf("%d", (int)(a * b));
     }
     else if (c == '/') {
         if (b != 0) {
-            printf("%d", (int)(a / b));  // Cast the result to int
+            printf("%d", (int)(a / b));  
         } else {
-            printf("Error: Division by zero!");
+            printf("error");
         }
     }
     else {
-        printf("Error: Invalid operator!");
+        printf("error");
     }
-
     return 0;
 }
