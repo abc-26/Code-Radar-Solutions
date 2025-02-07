@@ -4,13 +4,13 @@ int main(){
     char c;
     scanf("%lf %lf %c",&a,&b,&c);
     if (c == '+')
-       printf("%f",a+b);
+       printf("%.4f",a+b);
     else if (c == '-')
        printf("%f",a-b);
     else if (c == '*')
        printf("%f",a*b);
     else if (c == '/')
-       printf("%f",a/b);
+       printf("%.4f",a/b);
     else 
        printf("Error");
     return 0;
