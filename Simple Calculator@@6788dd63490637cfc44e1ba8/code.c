@@ -4,7 +4,7 @@ int main(){
     char c;
     scanf("%lf %lf %c",&a,&b,&c);
     if (c == '+')
-       printf("%.2f",a+b);
+       printf("%f",a+b);
     else if (c == '-')
        printf("%lf",a-b);
     else if (c == '*')
