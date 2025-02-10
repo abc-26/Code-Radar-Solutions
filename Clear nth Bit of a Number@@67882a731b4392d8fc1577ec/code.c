@@ -5,6 +5,6 @@ int main(){
     if(b<0 || b>31)
        return 1;
     int a = a & ~(1<<b);
-    printf("%d",b);
+    printf("%d",a);
     return 0;
 }
