@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    long num;
-    scanf("%ld",&num);
-    if(num & 1)
+    int num;
+    scanf("%d",&num);
+    if(num & (1 << 31))
        printf("Set");
     else
        printf("Not Set");
