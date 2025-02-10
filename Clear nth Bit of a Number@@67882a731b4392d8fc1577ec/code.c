@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d",&a,&b);
     if(b<0 || b>31)
        return 1;
-    int a = a & ~(1<<n);
+    int a = a & ~(1<<b);
     printf("%d",a);
     return 0;
 }
