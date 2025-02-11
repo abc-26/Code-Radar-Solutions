@@ -2,9 +2,8 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(b<0 || b>31)
-       return 1;
-    int a = a & ~(1<<b);
+    int c = ~(1<<b);
+    a = a & c;
     printf("%d",a);
     return 0;
 }
