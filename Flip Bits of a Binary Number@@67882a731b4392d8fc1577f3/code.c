@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main() {
     unsigned int num;
-    scanf("%u", &num);
-    unsigned int flipped_num = 0;
-    flipped_num = ~num;
+
+    // Input number
+    
+    scanf("%u", &num);  // Read unsigned integer
+    
+    // Perform bitwise NOT to flip all bits
+    unsigned int flipped_num = ~num;
     printf("%u\n", flipped_num);
 
     return 0;
